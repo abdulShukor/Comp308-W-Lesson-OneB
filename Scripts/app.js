@@ -1,3 +1,5 @@
+"use strict";
+
 // self-executing anonymos function
 
 //let myBlobalVariable=0; // global variable
@@ -12,7 +14,7 @@ let functionalVAraible = 0;
     
 // named function
 function Start(){
-    console.log(`App Startup ....${functionalVAraible}`);
+    console.log(`%cApp Startup ....${functionalVAraible}`,"font-size:20px; color: blue");
 
     //second way
      // variable and ananymose functions and asigneing to the variable
